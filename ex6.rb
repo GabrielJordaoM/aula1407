@@ -11,7 +11,11 @@ class ContaBancaria
     end
 
     def saque(valor)
+        if valor <= @saldo
         @saldo = @saldo - valor
+        else
+            puts "saldo insuficiente para a operaçao"
+        end
     end
 end
 
