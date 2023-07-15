@@ -40,6 +40,7 @@ class Cat < Animal
 end
 
 dog = Dog.new("Walter", 1, "Pastor Alemão")
+dog2 = Dog.new("Bruno", 3, "Golden Retriver")
 
 cat = Cat.new("Yoshi", 2, "Laranja")
 
